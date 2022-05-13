@@ -116,7 +116,7 @@ int main() {
 
 
     end = clock();
-    cout << "sorting and indexing takes " << (double) (end - begin) / CLOCKS_PER_SEC << " seconds" << endl;
+    cout << "sorting and indexing take " << (double) (end - begin) / CLOCKS_PER_SEC << " seconds" << endl;
 
     return 0;
 }
