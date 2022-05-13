@@ -1,0 +1,7 @@
+# ninja log v5
+0	352	1652417525105436886	CMakeFiles/externalMergeSort.dir/sharesInfo.cpp.o	95ed96a261d3fcfc
+2	400	1652417525159366273	CMakeFiles/externalMergeSort.dir/loserTree.cpp.o	e6f36b56d3e50a32
+1	500	1652417525257540386	CMakeFiles/externalMergeSort.dir/fin.cpp.o	9ae1129dbe12a620
+1	540	1652417525297970208	CMakeFiles/externalMergeSort.dir/fout.cpp.o	f9d2a0a1a02f5f7c
+0	746	1652417525504823185	CMakeFiles/externalMergeSort.dir/main.cpp.o	f71ef6b21850603f
+746	812	1652417525572613598	externalMergeSort	aebc1165d74f8e3b
