@@ -20,7 +20,7 @@ int main() {
     // cut the data and sort each segment individually
     int count = 0;
     {
-        ifstream in_file("../2_stocks.csv", ios::in);
+        ifstream in_file("../input1000.csv", ios::in);
 
         // skip the first line
         string skip;
@@ -28,7 +28,7 @@ int main() {
 
         while (!in_file.eof()) {
             // read k pieces of data at one time
-            const int k = 100;
+            const int k = 400000;
             vector<sharesInfo> shares_info = fin(in_file, k).read_info();
 
             sort(shares_info.begin(), shares_info.end());
